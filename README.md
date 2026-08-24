@@ -1,7 +1,7 @@
 # Grok Imagine 提示词收藏
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Prompts](https://img.shields.io/badge/Prompts-197-blue.svg)](data/prompts.jsonl)
+[![Prompts](https://img.shields.io/badge/Prompts-213-blue.svg)](data/prompts.jsonl)
 
 > 精心整理的 Grok Imagine (xAI) 视频生成提示词集合。中英文双语，保留来源，仅收录 SFW 内容。
 
@@ -33,9 +33,9 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总提示词数 | **208** |
+| 总提示词数 | **213** |
 | 分类数 | **13** |
-| 数据来源 | **6** |
+| 数据来源 | **10** |
 
 ---
 
@@ -43,16 +43,16 @@
 
 | 分类 | 提示词数 | 目录 |
 |------|---------|------|
-| 写实 | 32 | [prompts/写实/](prompts/写实/) |
-| 电影 | 30 | [prompts/电影/](prompts/电影/) |
-| 视频 | 24 | [prompts/视频/](prompts/视频/) |
+| 写实 | 33 | [prompts/写实/](prompts/写实/) |
+| 电影 | 31 | [prompts/电影/](prompts/电影/) |
+| 视频 | 25 | [prompts/视频/](prompts/视频/) |
 | 动画 | 23 | [prompts/动画/](prompts/动画/) |
 | 编辑 | 16 | [prompts/编辑/](prompts/编辑/) |
 | 其它 | 14 | [prompts/其它/](prompts/其它/) |
 | 科幻 | 13 | [prompts/科幻/](prompts/科幻/) |
-| 风景 | 11 | [prompts/风景/](prompts/风景/) |
+| 风景 | 12 | [prompts/风景/](prompts/风景/) |
+| 动漫 | 10 | [prompts/动漫/](prompts/动漫/) |
 | 奇幻 | 10 | [prompts/奇幻/](prompts/奇幻/) |
-| 动漫 | 9 | [prompts/动漫/](prompts/动漫/) |
 | 动作 | 9 | [prompts/动作/](prompts/动作/) |
 | 抽象 | 9 | [prompts/抽象/](prompts/抽象/) |
 | 风格 | 8 | [prompts/风格/](prompts/风格/) |
@@ -126,6 +126,9 @@ Prompt content
 5. **thoxakihiko/grok-imagine-prompt-1.5-guide** (CC BY 4.0) - 技术指南
 6. **medicinalsheep/grokmusicvideoprompt** (MIT) - 音乐视频
 7. **Roulandu/dance-i2v-prompt** (MIT) - 舞蹈图生视频
+8. **langgptai/awesome-grok-prompts** (MIT) - 综合提示词
+9. **Rion-Wu-tech/grok-video-workflow** (MIT) - 视频工作流
+10. **love1106/grok-imagine-toolkit** (MIT) - 工具包
 
 感谢所有原作者的贡献！
 
