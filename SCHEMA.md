@@ -56,10 +56,7 @@ tags:
 source_repo: 来源仓库全名
 source_url: 来源完整 URL
 source_license: 许可证类型
-organizer:
-  name: Yep
-  github: gentpan
-  note: 整理
+organizer: gentpan
 ---
 ```
 
@@ -88,7 +85,7 @@ Prompt content (English)
 ```markdown
 ---
 
-整理：Yep（[gentpan](https://github.com/gentpan)）  
+整理：[gentpan](https://github.com/gentpan)  
 来源：[仓库名](URL) (许可证)
 ```
 
@@ -108,11 +105,7 @@ Prompt content (English)
   "source_repo": "owner/repository",
   "source_url": "https://github.com/...",
   "source_license": "MIT",
-  "organizer": {
-    "name": "Yep",
-    "github": "gentpan",
-    "note": "整理"
-  }
+  "organizer": "gentpan"
 }
 ```
 
@@ -131,7 +124,7 @@ Prompt content (English)
 | `source_repo` | string | 来源 GitHub 仓库（格式：owner/repo） |
 | `source_url` | string | 提示词的原始来源 URL |
 | `source_license` | string | 原始内容的许可证类型 |
-| `organizer` | object | 整理者信息 |
+| `organizer` | string | 整理者 GitHub 用户名 (gentpan) |
 
 ## 分类体系
 
@@ -229,5 +222,5 @@ print(metadata['title_zh'])
 
 ---
 
-**维护者**: Yep ([gentpan](https://github.com/gentpan))  
+**维护者**: [gentpan](https://github.com/gentpan)  
 **最后更新**: 2026-08-24
