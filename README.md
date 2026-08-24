@@ -5,7 +5,7 @@
 
 > 精心整理的 Grok Imagine (xAI) 视频生成提示词集合。中英文双语，保留来源，仅收录 SFW 内容。
 
-**整理者**: Yep ([gentpan](https://github.com/gentpan))
+**管理者 / 整理者**: [gentpan](https://github.com/gentpan)
 
 ---
 
@@ -166,4 +166,4 @@ Prompt content
 
 ---
 
-**整理**: Yep ([gentpan](https://github.com/gentpan)) | **最后更新**: 2026-08-24
+**管理者 / 整理者**: [gentpan](https://github.com/gentpan) | **最后更新**: 2026-08-24
