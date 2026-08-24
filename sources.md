@@ -13,7 +13,7 @@
 **描述**: 一个精心策划的 Grok Imagine 提示词集合，包含多个分类的提示词模板和示例。
 
 **本项目使用情况**:
-- ✅ 已收录: 197 个提示词
+- ✅ 已收录: 183 个提示词
 - ❌ 已排除: `nsfw.md` 中的所有内容
 - ❌ 已排除: `scraper-log.md`（日志文件）
 
@@ -62,6 +62,103 @@
 ---
 
 ## 3. YouMind-OpenLab/awesome-grok-imagine-prompts
+
+**GitHub**: https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts
+
+**许可证**: CC BY 4.0 (Creative Commons Attribution 4.0 International)
+
+**描述**: 一个大型的 Grok Imagine 视频生成提示词库，包含 2500+ 精选提示词，涵盖电影、动作、动漫、产品、梗图等多种风格。
+
+**特点**:
+- 📊 大规模提示词库（2500+ 提示词）
+- 🎬 视频播放和预览功能
+- 🔍 多字段模糊搜索
+- 🤖 AI 驱动的提示词推荐
+- 📱 完全响应式设计
+
+**在线画廊**: https://youmind.com/grok-imagine-prompts
+
+**本项目使用情况**:
+- 本项目收录 README 中的精选提示词预览
+- 如需访问完整的 2500+ 提示词库，请访问原始仓库或在线画廊
+
+---
+
+## 4. imagineVid/awesome-grok-imagine-video-prompts-and-skills
+
+**GitHub**: https://github.com/imagineVid/awesome-grok-imagine-video-prompts-and-skills
+
+**许可证**: MIT License
+
+**更新日期**: 2026-08-24
+
+**描述**: 带有真实结果片段的 Grok Imagine 视频提示词，包含相机路径、音频感知工作流程和多语言指南。
+
+**特点**:
+- 🎥 带有视频结果的实战提示词
+- 🎬 相机运动和镜头设计
+- 🔊 音频同步工作流
+- 🌐 多语言支持（15种语言）
+
+**本项目使用情况**:
+- ✅ 已收录: 24 个视频提示词
+- 包含多语言元数据（中英文优先）
+
+---
+
+## 5. thoxakihiko/grok-imagine-prompt-1.5-guide
+
+**GitHub**: https://github.com/thoxakihiko/grok-imagine-prompt-1.5-guide
+
+**许可证**: CC BY 4.0
+
+**更新日期**: 2026-06
+
+**描述**: Grok Imagine 1.5 的完整提示词参考指南（图像 + 视频），实战测试的提示词参考手册，涵盖文生图、图像编辑、文生视频、图生视频、视频编辑等全流程。
+
+**特点**:
+- 📖 完整的技术规格和参数说明
+- 🎯 经过验证的提示词模式
+- ⚠️ 反模式和避坑指南
+- 📝 可复制粘贴的模板
+
+**本项目使用情况**:
+- ✅ 已收录: 示例提示词
+- 作为技术参考资料
+
+---
+
+## 6. medicinalsheep/grokmusicvideoprompt
+
+**GitHub**: https://github.com/medicinalsheep/grokmusicvideoprompt
+
+**许可证**: MIT License
+
+**更新日期**: 2026-08-18
+
+**描述**: 专为一致性 Grok 音乐视频生成设计的主提示词模板。
+
+**本项目使用情况**:
+- 作为音乐视频提示词的参考
+
+---
+
+## 7. Roulandu/dance-i2v-prompt
+
+**GitHub**: https://github.com/Roulandu/dance-i2v-prompt
+
+**许可证**: MIT License
+
+**更新日期**: 2026-08-14
+
+**描述**: Grok Imagine 1.5 卡点跳舞图生视频提示词 / Dance I2V Prompt
+
+**本项目使用情况**:
+- 作为图生视频（舞蹈）提示词的参考
+
+---
+
+## 原 3. YouMind-OpenLab/awesome-grok-imagine-prompts
 
 **GitHub**: https://github.com/YouMind-OpenLab/awesome-grok-imagine-prompts
 

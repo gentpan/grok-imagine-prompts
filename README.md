@@ -33,28 +33,29 @@
 
 | 指标 | 数量 |
 |------|------|
-| 总提示词数 | **197** |
-| 分类数 | **12** |
-| 数据来源 | **3** |
+| 总提示词数 | **208** |
+| 分类数 | **13** |
+| 数据来源 | **6** |
 
 ---
 
 ## 🗂️ 分类目录
 
-| 分类 | 提示词数 | 文件 |
+| 分类 | 提示词数 | 目录 |
 |------|---------|------|
-| 电影感 (Cinematic) | 34 | [cinematic.md](prompts/cinematic.md) |
-| 写实肖像 (Photorealistic Portraits) | 33 | [photorealistic_potraits.md](prompts/photorealistic_potraits.md) |
-| 视频动画 (Video Animation) | 26 | [video_animation.md](prompts/video_animation.md) |
-| 编辑转换 (Editing & Transformation) | 16 | [editing_transformation.md](prompts/editing_transformation.md) |
-| 抽象超现实 (Abstract & Surreal) | 13 | [abstract_surreal.md](prompts/abstract_surreal.md) |
-| 科幻 (Sci-Fi) | 13 | [sci_fi.md](prompts/sci_fi.md) |
-| 杂项 (Misc) | 13 | [misc.md](prompts/misc.md) |
-| 奇幻 (Fantasy) | 12 | [fantasy.md](prompts/fantasy.md) |
-| 自然 (Nature) | 11 | [nature.md](prompts/nature.md) |
-| 动漫赛博朋克 (Anime & Cyberpunk) | 9 | [anime_cyberpunk.md](prompts/anime_cyberpunk.md) |
-| 动作视频 (Action Videos) | 9 | [action_videos.md](prompts/action_videos.md) |
-| 风格氛围 (Styles & Moods) | 8 | [styles_moods.md](prompts/styles_moods.md) |
+| 写实 | 32 | [prompts/写实/](prompts/写实/) |
+| 电影 | 30 | [prompts/电影/](prompts/电影/) |
+| 视频 | 24 | [prompts/视频/](prompts/视频/) |
+| 动画 | 23 | [prompts/动画/](prompts/动画/) |
+| 编辑 | 16 | [prompts/编辑/](prompts/编辑/) |
+| 其它 | 14 | [prompts/其它/](prompts/其它/) |
+| 科幻 | 13 | [prompts/科幻/](prompts/科幻/) |
+| 风景 | 11 | [prompts/风景/](prompts/风景/) |
+| 奇幻 | 10 | [prompts/奇幻/](prompts/奇幻/) |
+| 动漫 | 9 | [prompts/动漫/](prompts/动漫/) |
+| 动作 | 9 | [prompts/动作/](prompts/动作/) |
+| 抽象 | 9 | [prompts/抽象/](prompts/抽象/) |
+| 风格 | 8 | [prompts/风格/](prompts/风格/) |
 
 ---
 
@@ -79,27 +80,38 @@ cat data/prompts.jsonl
 
 ### 数据格式
 
-每个提示词记录包含以下字段：
+每个提示词文件（如 `prompts/电影/0001.md`）包含 YAML frontmatter 和双语内容：
 
-```json
-{
-  "id": "唯一标识",
-  "title_zh": "中文标题",
-  "title_en": "English Title",
-  "prompt": "原始提示词",
-  "prompt_zh": "中文提示词（或说明）",
-  "prompt_en": "English prompt",
-  "tags": ["标签1", "标签2"],
-  "source_repo": "来源仓库",
-  "source_url": "来源 URL",
-  "source_license": "许可证",
-  "organizer": {
-    "name": "Yep",
-    "github": "gentpan",
-    "note": "整理"
-  }
-}
+```yaml
+---
+id: 唯一标识
+title_zh: 中文标题
+title_en: English Title
+category: 分类名
+tags: [标签1, 标签2]
+source_repo: 来源仓库
+source_url: 来源 URL
+source_license: 许可证
+organizer:
+  name: Yep
+  github: gentpan
+  note: 整理
+---
+
+## 中文
+**标题**
+提示词内容
+
+## English
+**Title**
+Prompt content
+
+---
+整理：Yep（gentpan）  
+来源：[仓库](URL) (许可证)
 ```
+
+详细说明见 [SCHEMA.md](SCHEMA.md)。
 
 ---
 
@@ -107,19 +119,15 @@ cat data/prompts.jsonl
 
 本项目整理自以下开源项目（详见 [sources.md](sources.md)）：
 
-1. **that-cod/awesome-grok-imagine-prompts** (MIT)
-   - 197 个提示词
-   - 已跳过 NSFW 内容
+1. **that-cod/awesome-grok-imagine-prompts** (MIT) - 183 个
+2. **seaimagine/awesome-grok-imagine-1-5-prompts** (MIT) - 40 个原创
+3. **YouMind-OpenLab/awesome-grok-imagine-prompts** (CC BY 4.0) - 精选
+4. **imagineVid/awesome-grok-imagine-video-prompts-and-skills** (MIT) - 24 个
+5. **thoxakihiko/grok-imagine-prompt-1.5-guide** (CC BY 4.0) - 技术指南
+6. **medicinalsheep/grokmusicvideoprompt** (MIT) - 音乐视频
+7. **Roulandu/dance-i2v-prompt** (MIT) - 舞蹈图生视频
 
-2. **seaimagine/awesome-grok-imagine-1-5-prompts** (MIT)
-   - 约 40 个原创提示词
-   - 分类清晰的生产级内容
-
-3. **YouMind-OpenLab/awesome-grok-imagine-prompts** (CC BY 4.0)
-   - 精选提示词预览
-   - 2500+ 提示词库
-
-感谢原作者的贡献！
+感谢所有原作者的贡献！
 
 ---
 
