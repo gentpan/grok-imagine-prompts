@@ -228,6 +228,6 @@
 
 ---
 
-**整理**: Yep ([gentpan](https://github.com/gentpan))
+**整理**: [gentpan](https://github.com/gentpan)
 
 **最后更新**: 2026-08-24

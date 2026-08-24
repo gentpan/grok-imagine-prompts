@@ -92,10 +92,7 @@ tags: [标签1, 标签2]
 source_repo: 来源仓库
 source_url: 来源 URL
 source_license: 许可证
-organizer:
-  name: Yep
-  github: gentpan
-  note: 整理
+organizer: gentpan
 ---
 
 ## 中文
@@ -107,7 +104,7 @@ organizer:
 Prompt content
 
 ---
-整理：Yep（gentpan）  
+整理：[gentpan](https://github.com/gentpan)  
 来源：[仓库](URL) (许可证)
 ```
 
